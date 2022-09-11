@@ -1,1 +1,39 @@
+Crime complaint
+1) Government member
+2) User member
+
+User member
+	1) Create new ID
+	2) Login ID
+	3) Forgot Password
+	4) Rules
+	5) All Kalam
+	6) Update Rules View
+	7) Complaint
+	8) Return Complaint
+	9) Complaint Notes
+  10) Contact Case Accept Member
+	11) Setting 
+
+Government Member 
+	1) Create new ID
+	2) Login ID
+	3) Forgot Password
+	4) Rules
+	5) All Kalam
+	6) Update Rules View
+	7) Select post (One Time) 
+	8) Complaint Box
+	9) Update Inform Senior
+	10) Update Inform User
+ 	11) Notes
+	12) Case Transfer 
+	13) Case recodes
+	14) Case Accept Member Information   
+  15) Seen The All Details  
+	16) Setting
+	
+	
+
+
 
