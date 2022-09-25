@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="choose any button"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:text="side 1"
+        android:background="@drawable/button_design"
+        android:backgroundTint="@color/black"
+        />
+
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:text="side 2"
+        android:background="@drawable/button_design"
+        android:backgroundTint="@color/black"
+
+    />
+
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b2"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:text="side 3"
+        android:background="@drawable/button_design"
+        android:backgroundTint="@color/black"
+
+
+    />
+
+
+</RelativeLayout>
