@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/r1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="#6B479E">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="click any button"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="black"
+        android:textColor="@color/white"
+        android:backgroundTint="#4A23"
+        android:textStyle="italic"
+        android:layout_below="@id/t1"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        />
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/b2"
+        android:layout_below="@id/t1"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="white"
+        android:textColor="@color/white"
+        android:backgroundTint="#4A23"
+        android:textStyle="italic"
+        android:layout_toRightOf="@id/b1"
+        android:gravity="center"
+
+    />
+
+
+</RelativeLayout>
